@@ -8,10 +8,8 @@ Num_tel char(10)not null,
 Edad int not null,
 Id_sucursal char(9) not null,
 Email varchar(40) not null,
-Contraseña varchar(10)not null
+ContraseÃ±a varchar(10)not null
 );
-
-drop table Empleados
 
 create table Sucursal(
 Id_sucursal int primary key,
@@ -32,7 +30,7 @@ select * from Empleados
 
 select * from Sucursal
 
-insert into Empleados (Id_empleado,Nombre_empleado, Direccion, Num_tel, Edad, Id_sucursal, Email, Contraseña)
+insert into Empleados (Id_empleado,Nombre_empleado, Direccion, Num_tel, Edad, Id_sucursal, Email, ContraseÃ±a)
 values (3,'Roberto Gallegos Marquz', 'calle italia #345', '9217654398',24, '1', 'robertogall@empresa.com', 'RGM12345'),
 (4,'Marcos Ventura Hernandez', 'calle brunet #23', '9223457613',30, '1', 'marcosvent@empresa.com', 'MVH12345'),
 (5,'Yazmin Gonzalez Hernandez','calle lindavista #453','9213332498', 23, '1', 'yazmingon@empresa.com','YGH12345'),
@@ -53,11 +51,11 @@ values (3,'Roberto Gallegos Marquz', 'calle italia #345', '9217654398',24, '1', 
 (20,'Karla Tosca Fomperosa','calle emiliano zapata #435','9214325678',23,'4','karlatos@empleado.com','KTF12345'),
 (21,'Marcelo Hilguera Marti','calle cosme #32','9213213214',24,'4','marcelohil@empleado.com','MHM12345'),
 (22,'Danilo Fuentes Fuentes','calle lopez mateos #346','9215678787',34,'4','danilofue@empleado.com','DFF12345'),
-(23,'Fernanda Gómez Farías','calle Xicoténcatl #321', '9211114451', 23,'4','fernandagom@emoleado.com', 'FGF12345'),
+(23,'Fernanda GÃ³mez FarÃ­as','calle XicotÃ©ncatl #321', '9211114451', 23,'4','fernandagom@emoleado.com', 'FGF12345'),
 (24,'Mario Alberto Jimenez Salcido','calle emiliano zapata #234','9226789001',24,'4','marioalb@empleado.com','MAJS1234'),
-(25, 'Marcos jilgueros Macías', 'calle 5 de mayo #343', '9213457689', 21, '5', 'marcosjil@empleado.com', 'MJM12345'),
-(26, 'Angelica Blas delfín', 'calle tucanes #908', '9224325656', 24, '5', 'angelicabla@empleado.com', 'ABD12345'),
-(27,'Leopoldo Gomez Rodríguez', 'calle 1ro de mayo #343', '9211212123', 34, '5', 'Leopoldogom@empleado.com', 'LGR12345'),
+(25, 'Marcos jilgueros MacÃ­as', 'calle 5 de mayo #343', '9213457689', 21, '5', 'marcosjil@empleado.com', 'MJM12345'),
+(26, 'Angelica Blas delfÃ­n', 'calle tucanes #908', '9224325656', 24, '5', 'angelicabla@empleado.com', 'ABD12345'),
+(27,'Leopoldo Gomez RodrÃ­guez', 'calle 1ro de mayo #343', '9211212123', 34, '5', 'Leopoldogom@empleado.com',Â 'LGR12345'),
 (28,'Carlos Jimenez Fernandez','calle lopez mateos #322','9224561111',21,'5','carlosjim@empleado.com','CJF12345'),
 (29,'Marina Lopez Galvez','calle jibrantar #345','9214323212',30,'5','marinalop@empleado.com','MLG12345'),
 (30,'Yeseneia Guadalupe Campos Rojo','calle andesita #21','9244569876',23,'5','yesenialop@empleado.com','YGCR1234'),
